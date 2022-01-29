@@ -1,0 +1,29 @@
+
+/*ETIQUETAS */
+i p{
+  color: darkred;
+}
+
+p {
+  color: darkorange;
+  font-size:  15px;
+}
+
+section p {
+  color: darkkhaki;
+}
+
+li p{
+  color: darkred;
+}
+
+/* CLASES */
+
+.p-clase {
+  color: darkcyan;
+}
+
+/* ID */
+#identificador {
+  color: darkorchid;
+}
