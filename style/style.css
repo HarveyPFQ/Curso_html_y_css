@@ -24,6 +24,52 @@ li p{
 }
 
 /* ID */
-#identificador {
+#p-
+identificador {
   color: darkorchid;
+}
+
+.main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0px;
+  background-color: #13a4a4;
+}
+
+.main-nav__item {
+  display: inline-block;  
+}
+
+.main-nav__item a {
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  text-decoration: none;
+  background-color: darkmagenta;
+}
+
+/* PSEUDO CLASE.- se aplica cuando se cumple un etado */
+.main-nav__item a:hover {
+  color: teal;
+}
+
+.main-nav__item a:active {
+  color: indigo;
+}
+
+/* PSEUDO ELEMENTOS.- se aplicada a un determinado elemento*/
+/* esto puede añadir un contenido adicional al elemento*/
+
+.main-nav__item a::after{
+  content: " | ";
+}
+
+.main-nav__item a::first-letter {
+  color: aqua;
+  font-size: 30px;
+}
+
+p::first-letter {
+  color: aqua;
+  font-size: 40px;
 }
