@@ -6,6 +6,47 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+.parent {
+  border: 2px black dotted;
+  display: inline-block;
+}
+
+.box {
+  display: inline-block;
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+}
+
+#two {
+  background-color: green;
+}
+
+.div-container {
+  background-color: palevioletred;
+  width: 500px;
+  height:200px;
+}
+
+.div-subcontainer {
+  background-color: blueviolet;
+  width: 10vw;
+  height: 10vh;
+}
+
+.text-container {
+  color: limegreen;
+  font-size: 12px;
+}
+
+.text-container h5 {
+  font-size: 2em;
+}
+
 h1  {
   color: purple;
   font-family: serif;
@@ -39,6 +80,17 @@ h1  {
   background-color: red;
 }
 
+h2 + p {
+  color: rebeccapurple;
+}
+
+h3 ~ h2 {
+  color: maroon;
+}
+
+div > p {
+  color: darkgreen;
+}
 li p{
   color: darkred;
 }
@@ -107,7 +159,7 @@ li p{
   font-size: 30px;
 }
 
-p::first-letter {
+/* p::first-letter {
   color: aqua;
   font-size: 40px;
-}
+} */
